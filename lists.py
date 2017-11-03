@@ -12,3 +12,12 @@ print(sum([ [1,2,3], [4,5,6], [7,8,9] ],[]))
 
 cartesian = [ [x,y] for x in ['A','B','C'] for y in [1,2,3]]
 print(cartesian)
+
+# slices that skip
+
+L = [0,10,20,30,40,50,60,70,80,90]
+print(L[:5])
+print(L[5:])
+print(L[::2])
+print(L[1::2])
+
